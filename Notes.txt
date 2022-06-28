@@ -43,3 +43,8 @@ npm install webpack webpack-cli webpack-dev-server
 webpack-dev-server allows us to is use webpack in a development env
 
 
+OR
+
+Instead of all that you can just run 
+    npx install create-react-app projectNameGoesHere
+
