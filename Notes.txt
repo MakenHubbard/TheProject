@@ -1,0 +1,45 @@
+Notes:
+
+npm init -y creates package.json
+    holds what kind of packages and things we are using
+
+npm install react react-dom
+
+package-lock.json which version we are currently using and locks 
+the version of the packages you are using
+
+Node modules basically holds all the different libraries and
+packages that are installed. Can get quite large.
+
+You can send someone the package.json and they can run npm install and 
+they will automatically have all the node modules
+
+npm install @babel/core @babel/preset-env @babel/preset-react babel-loader
+
+@babel/core  :   Is the basic package
+
+@babel/preset-env   :  Basically allows to use modern JS i.e. ES6,ES7,etc
+                        transpiles newer JS into older JS
+
+@babel/preset-react    :  Basically translate JSX into vamilla react
+
+babel-loader   :   INtermediary package that connectsBabel into wetpack
+
+Wetpack basically tatkes the React code and everything that we that 
+we are using and it jumbles up with our react code and makes it 
+work on al lthe web pages.
+
+There are different packages you can add to wetpack to make things
+better for you.
+
+You can add a loader to take your CSS and turn it into SASS
+
+Create Babel file 
+
+Then go back to package.json
+
+npm install webpack webpack-cli webpack-dev-server
+
+webpack-dev-server allows us to is use webpack in a development env
+
+

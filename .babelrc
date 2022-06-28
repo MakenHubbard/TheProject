@@ -1,0 +1,8 @@
+/*
+    Creating a babel file is stating that you want to take 
+    react code and JSX and transpile that
+*/
+
+{
+    "presets":["@babel/preset-react", "@babel/preset-env"]
+}
